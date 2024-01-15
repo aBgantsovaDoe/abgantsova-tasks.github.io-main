@@ -31,7 +31,8 @@ a {
     width: 600px;
     height: 600px;
     border: 2px black;
-    background: black;
+    background: #ED7D31;
+    border-radius: 2%;
     margin: auto;
     margin-top: 5%;
 }
