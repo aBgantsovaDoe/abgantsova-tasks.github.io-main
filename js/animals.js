@@ -23,7 +23,6 @@ class element {
 
 const figure = document.getElementsByClassName('figure');
 const picture = document.getElementsByClassName('pic');
-const main = document.getElementsByClassName('main').item(0);
 const birds = document.getElementsByClassName("bird");
 const beasts = document.getElementsByClassName("beast");
 var content = document.querySelector(".content"); 
@@ -56,9 +55,6 @@ function move() {
         moving(figure.item(i));
   }
   
-  function drag(e) {
-}
-
   function moving(fig) {
       fig.ondragstart = () => {
           return false;
